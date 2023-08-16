@@ -1,0 +1,23 @@
+h1{
+    font-family: var(--font-family-oswald);
+    font-size: 50px;
+
+    text-shadow:
+    0 0 7px #d0d0d0,
+    0 0 15px #fff,
+    0 0 15px #fff,
+    0 0 15px #ff9696,
+    0 0 15px rgb(56, 80, 202),
+    0 0 15px #0fa,
+    0 0 150px rgb(183, 210, 32),
+    0 0 15px rgb(2, 176, 89);
+}
+
+p{
+    cursor: pointer;
+    font-family: var(--font-family-oswald);
+    font-size: var(--font-size-small);
+    color: white    ;
+    
+}
+

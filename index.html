@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Esse é o meu quiz</title>
+    <script src="./js/app.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <iframe class = "correct" id="correct" style="border: none" width="1000" height="500" src="https://rive.app/community/4207-8735-success/embed" allowfullscreen></iframe>
+    <iframe class="end" id="end" style="border: none" width="980" height="600" src="https://rive.app/community/3569-7461-thanks-yall/embed" allowfullscreen></iframe>
+
+    <div class="port"  id="question1">
+        <iframe style="border: none" width="1000" height="500" src="https://rive.app/community/1542-3018-party/embed" allowfullscreen></iframe>
+    <div class="up">
+        <h1>Quantas gerações tem o Romantismo?</h1>
+    </div>
+    <div class="dn">
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta()">UMA</p></div>
+            <div class="opt"><p onclick="verificarResposta()">DUAS</p></div>
+        </div>
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta('c')">TRÊS</p></div>
+            <div class="opt"><p onclick="verificarResposta()">QUATRO</p></div>
+        </div>
+        
+    </div>
+    <p id="resultado"></p>
+    </div>
+
+    <div class="port1" id="question2">
+        <iframe style="border: none" width="1000" height="500" src="https://rive.app/community/1542-3018-party/embed" allowfullscreen></iframe>
+    <div class="up">
+        <h1>Quanto é 20 x 20</h1>
+    </div>
+    <div class="dn">
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta1()">200</p></div>
+            <div class="opt"><p onclick="verificarResposta1()">800</p></div>
+        </div>
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta1('c')">400</p></div>
+            <div class="opt"><p onclick="verificarResposta1()">20</p></div>
+        </div>
+        
+    </div>
+    <p id="resultado1"></p>
+    </div>
+    
+
+    <div class="port3" id="question3" >
+        <iframe style="border: none" width="1000" height="500" src="https://rive.app/community/1542-3018-party/embed" allowfullscreen></iframe>
+    <div class="up">
+        <h1>Qual desses não é um esporte em equipe?</h1>
+    </div>
+    <div class="dn">
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta3()">Futebol</p></div>
+            <div class="opt"><p onclick="verificarResposta3('c')">Golf</p></div>
+        </div>
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta3()">Vôlei</p></div>
+            <div class="opt"><p onclick="verificarResposta3()">Basquete</p></div>
+        </div>
+        
+    </div>
+        <p id="resultado3"></p>
+    </div>
+
+    
+    <div class="port4" id="question4" >
+        <iframe style="border: none" width="1000" height="500" src="https://rive.app/community/1542-3018-party/embed" allowfullscreen></iframe>
+    <div class="up">
+        <h1>De quem é a famosa frase “Penso, logo existo”?</h1>
+    </div>
+    <div class="dn">
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta4()">Platão</p></div>
+            <div class="opt"><p onclick="verificarResposta4()">Galileu Galilei</p></div>
+        </div>
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta4()">Sócrates</p></div>
+            <div class="opt"><p onclick="verificarResposta4('c')">Descartes</p></div>
+        </div>
+        
+    </div>
+        <p id="resultado4"></p>
+    </div>
+
+    <div class="port5" id="question5" >
+        <iframe style="border: none" width="1000" height="500" src="https://rive.app/community/1542-3018-party/embed" allowfullscreen></iframe>
+    <div class="up">
+        <h1>Quem pintou "Guernica"?</h1>
+    </div>
+    <div class="dn">
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta5('a')">Pablo Picasso</p></div>
+            <div class="opt"><p onclick="verificarResposta5()">Paul Cézanne</p></div>
+        </div>
+        <div class="sec">
+            <div class="opt"><p onclick="verificarResposta5()">Diego Rivera</p></div>
+            <div class="opt"><p onclick="verificarResposta5()">Tarsila do Amaral</p></div>
+        </div>
+    
+    </div>
+        <p id="resultado5"></p>
+    </div>
+
+
+        
+</body>
+
+</html>

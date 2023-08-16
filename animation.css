@@ -1,0 +1,35 @@
+.opt:hover{
+    background-color: black;
+    color: white;
+}
+
+.port{
+    display: block;
+}
+
+.port1{
+    display: none;
+}
+
+.port3{
+    display: none;
+}
+
+.port4{
+    display: none;
+}
+
+.port5{
+    display: none;
+}
+
+.correct{
+    display: none;
+}
+
+.end{
+    display: none;
+}
+
+
+
