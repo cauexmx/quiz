@@ -1,4 +1,4 @@
-@import "./layout/animation.css";
-@import "./css/global.css";
-@import "./css/quiz.css";
-@import "./layout/page.css";
+@import "animation.css";
+@import "global.css";
+@import "quiz.css";
+@import "page.css";
